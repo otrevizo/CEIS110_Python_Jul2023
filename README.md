@@ -1,6 +1,6 @@
 # CEIS110 Python
 
-_Teaching Introduction to Python - July 2023._
+_University Teaching: Introduction to Python - July 2023._
 
 This repository contains Python code that supplement the lessons from CEIS110 in July 2023.
 

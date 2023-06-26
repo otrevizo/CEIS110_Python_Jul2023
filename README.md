@@ -1,13 +1,13 @@
 # CEIS110 Python
 
-_Teaching Introduction to Python - July 2023._
+_University Teaching: Introduction to Python - July 2023._
 
 This repository contains Python code that supplement the lessons from CEIS110 in July 2023.
 
 ## Modules: Jupyter Notebooks
 
 The lessons are organized in modules. Each module introduces the student to different softare topics using Python: 
-Control structures, iterative processes, functions, data structures, modules, plotting and analytics, and i/o, and visuals or plots. 
+Control structures, iterative processes, functions, data structures, modular design, i/o, plotting, and analytics. 
 
 The purpose of using Jupyter Notebooks is to walk the students through the CEIS110 Python code 
 following a simple step by step approach. Keep it simple.

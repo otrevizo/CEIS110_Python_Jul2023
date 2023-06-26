@@ -18,7 +18,7 @@ and solve CEIS110 labs and exercises.
 I am also sharing one single Python file created on Spyder IDE to broaden the student's knowledge.
 Spyder is a powerful IDE that provides several features to code in Python.
 
-## Course Project: Weather use case
+## Course Project: The weather use case
 
 The course project adds new functionality to a Python program week over week. The project consists of a use case
 that; gathers weather data from NOAA, uses Pandas to build dataframes, uses a SQL database to store the data, 

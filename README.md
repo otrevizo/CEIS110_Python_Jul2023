@@ -2,9 +2,9 @@
 
 _Teaching Introduction to Python - July 2023._
 
-This repository contains Jupyter Notebooks that supplement the lessons from CEIS110 in July 2023. And Python files that cover to cover the course project.
+This repository contains Python code that supplement the lessons from CEIS110 in July 2023.
 
-## Jupyter Notebooks
+## Modules: Jupyter Notebooks
 
 The lessons are organized in modules. Each module introduces the student to different softare topics using Python: 
 Control structures, iterative processes, functions, data structures, modules, plotting and analytics, and i/o, and visuals or plots. 

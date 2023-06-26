@@ -1,4 +1,4 @@
-# CEIS110_Jul_2023_Python
+# CEIS110 Python
 
 _Teaching Introduction to Python - July 2023._
 

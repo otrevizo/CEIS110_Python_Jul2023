@@ -1,15 +1,15 @@
-# CEIS110 Python
+# CEIS110 Introduction to Programming, using Python
 
-_University Teaching: Introduction to Python - July 2023._
+_July 2023_
 
-This repository contains Python code that supplement the lessons from CEIS110 in July 2023.
+This repository contains Python files to supplement CEIS110 lessons.
 
 ## Modules: Python topics
 
 The lessons are organized in modules. Each module introduces the student to different softare topics using Python: 
 Control structures, iterative processes, functions, data structures, modular design, i/o, plotting, and analytics. 
 
-I use Jupyter Notebooks to walk the students through the CEIS110 Python code 
+I use Jupyter Notebooks to walk my students through the CEIS110 Python code 
 following a simple step by step approach. Keep it simple.
 
 The student can then take these notebooks as examples and apply them to build their own Python code
@@ -25,3 +25,7 @@ that; gathers weather data from NOAA, uses Pandas to build dataframes, uses a SQ
 writes to CSV files to share the data, and creates plots to analyze it. 
 
 The students use Spyder to build the project.
+
+_Oscar A. Trevizo, Visiting Professor_
+_Computer Engineering and Information Sciences (CEIS)_
+

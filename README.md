@@ -1,5 +1,9 @@
 # CEIS110 Introduction to Programming, using Python
 
+_Oscar A. Trevizo, Visiting Professor_
+
+_Computer Engineering and Information Sciences (CEIS)_
+
 _July 2023_
 
 This repository contains Python files to supplement CEIS110 lessons.
@@ -26,6 +30,4 @@ writes to CSV files to share the data, and creates plots to analyze it.
 
 The students use Spyder to build the project.
 
-_Oscar A. Trevizo, Visiting Professor_
-_Computer Engineering and Information Sciences (CEIS)_
 

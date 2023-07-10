@@ -8,6 +8,9 @@ _July 2023_
 
 This repository contains Python files to supplement CEIS110 lessons.
 
+YouTube videos:
+https://www.youtube.com/playlist?list=PLJgpRhj3_bvGVO7lua6wuWe-4rXtm1da2 
+
 ## Modules: Python topics
 
 The lessons are organized in modules. Each module introduces the student to different softare topics using Python: 

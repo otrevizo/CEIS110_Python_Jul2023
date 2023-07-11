@@ -32,13 +32,13 @@ def convertCtoF(tempC):
     return (tempC * 9.0 / 5.0) + 32.0
 
 
-# %% Week 1 - Anaconda
+# %% Module 1 - Anaconda
 '''
 Install Anaconda
 '''
 
 
-# %% Week 2 - Simple program
+# %% Module 2 - Simple program
 '''
 Prerequisites:
 1. Open the Anaconda >> Spyder.
@@ -55,7 +55,7 @@ if temperature > 60:
 else:
     print('Hello ', name, ', it is cold where your live.')
 
-# %% Week 3 - NOAA API and build DB
+# %% Module 3 - NOAA API and build DB
 '''
 NOA API prerequisites:
 See https://pypi.org/project/noaa-sdk/ for details on noaa_sdk package used
@@ -159,7 +159,7 @@ if count > 0:
 print(count, "rows inserted")
 print("Database load complete!")
 
-# %% Week 4 Part 1 - DB Reads
+# %% Module 4 Part 1 - DB Reads
 
 # Purpose: Query database using SQL
 # Name: Your name
@@ -192,7 +192,7 @@ selectCmd = " SELECT * FROM observations ORDER BY timestamp; "
 result = pd.read_sql_query(selectCmd, conn)
 print(result)
 
-# %% Week 4 Part 2 - DB Reads
+# %% Module 4 Part 2 - DB Reads
 # To see the lowest and highest temperatures observed in this data set...
 
 print("CEIS110 Week 4 Part 2")
@@ -210,7 +210,7 @@ selectCmd = "SELECT temperature, windspeed, \
 result = pd.read_sql_query(selectCmd, conn)
 print(result)
 
-# %% Week 5 - Lists - Part 1
+# %% Module 5 - Lists - Part 1
 
 # Purpose: Extract temp, humidity data from weather database into CSV file
 # Run BuildWeatherDB.py to build weather database before running this program
@@ -258,7 +258,7 @@ with open(output_file_name, "w+") as outf:
             outf.write(str(humidity) + '\n')
             # print data to file separated by commas
 
-# %% Week 5 - Lists Part 2
+# %% Module 5 - Lists Part 2
 
 # Purpose: Extract temp, humidity data from weather database into CSV file
 # Run BuildWeatherDB.py to build weather database before running this program
@@ -306,7 +306,7 @@ with open(output_file_name, "w+") as outf:
             outf.write(str(humidity) + '\n')
             # print data to file separated by commas
 
-# %% Week 6 - Plots
+# %% Module 6 - Plots
 
 # data frames to plot
 df1 = pd.read_csv("formatdata.csv")

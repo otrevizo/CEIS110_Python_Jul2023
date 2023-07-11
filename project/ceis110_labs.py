@@ -6,7 +6,10 @@ Created on Fri Nov 19 07:43:46 2021
 
 Adapted code from CEIS110, Prof. G. Cooper
 
-
+Updated July 11, 2023
+- Module 2 changed. Now Module 2 asks student to write a simple program.
+- Piror version had Module 2 install noaa-apk
+- New version has installation of noaa-apk within Module 3
 """
 
 # %% Libraries
@@ -34,17 +37,36 @@ def convertCtoF(tempC):
 Install Anaconda
 '''
 
-# %% Week 2 - NOAA API
+
+# %% Week 2 - Simple program
 '''
 Prerequisites:
+1. Open the Anaconda >> Spyder.
+
+2. Write a simple program
+
+'''
+
+name = input('What is your name: ')
+city = input('What city do you live in: ')
+temperature = float(input('What is the temperature: '))
+if temperature > 60:
+    print('Hello ', name, ', it is nice where your live.')
+else:
+    print('Hello ', name, ', it is cold where your live.')
+
+# %% Week 3 - NOAA API and build DB
+'''
+NOA API prerequisites:
+See https://pypi.org/project/noaa-sdk/ for details on noaa_sdk package used
 1. Open a terminal window
     a) Windows. Open the Anaconda >> Prompt command window.
     b) Macs. Open Launchpad, then click the terminal icon.
     c) Linux, Open a terminal window.
 
-2. At the prompt, enter the following command and Enter
+2. At the prompt, enter the following command:
     pip install noaa-sdk
-
+   
 3. The last line of the output says
     “Successfully installed noaa-sdk” you are good!
 
@@ -52,7 +74,7 @@ Prerequisites:
 
 '''
 
-# %% Week 3 - Build DB
+# %%% Build DB
 
 # Purpose: Build weather database from NOAA data
 # Name: Your name
@@ -340,7 +362,11 @@ runfile('api_noaa_weather.py')
 help(functioname)
 
 References:
-* DeVry University DEIS110 class. Team Leader Prof. Gina Cooper. Nov. 2021
+* https://pypi.org/project/noaa-sdk/
+* https://www.weather.gov/documentation/services-web-api
+* https://api.weather.gov/openapi.jsonhttps://api.weather.gov/openapi.json
+* https://www.weather.gov/media/documentation/docs/NWS_Geolocation.pdf
+* https://github.com/paulokuong/noaa
 * MySQL Documentation (accessed May 18, 2022) https://dev.mysql.com/doc/
 * MySQL Tutorial (accessed May 18, 2022) https://dev.mysql.com/doc/refman/8.0/en/tutorial.html
 * sqlite3 documentation (accessed May 18, 2022) https://docs.python.org/3/library/sqlite3.html

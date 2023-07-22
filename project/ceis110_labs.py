@@ -8,8 +8,8 @@ Adapted code from CEIS110, Prof. G. Cooper
 
 Updated July 11, 2023
 - Module 2 changed. Now Module 2 asks student to write a simple program.
-- Piror version had Module 2 install noaa-apk
-- New version has installation of noaa-apk within Module 3
+- Piror version had Module 2 install noaa-spk
+- New version has installation of noaa-spk within Module 3
 """
 
 # %% Libraries

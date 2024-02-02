@@ -1,4 +1,4 @@
-# CEIS110 Introduction to Programming, using Python
+# CEIS110 Introduction to Programming using Python
 
 _Oscar A. Trevizo, Visiting Professor_
 
